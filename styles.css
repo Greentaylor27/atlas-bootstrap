@@ -1,3 +1,15 @@
-.container-flui {
-    border: .1rem blue solid;
+.bg-blue {
+    background-color: #191970 !important;
 }
+
+.jumbotron {
+    /* Backgorund image was ai generated as are most pictures in this project */
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.text-grey {
+    color: #777777;
+}
+
