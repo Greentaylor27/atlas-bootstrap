@@ -6,10 +6,27 @@
     /* Backgorund image was ai generated as are most pictures in this project */
     background-image: url(img/background.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 .text-grey {
     color: #777777;
 }
 
+.a1 {
+    color: #777777;
+    text-shadow: 2px 2px #000000;
+}
+
+.bg-reaver {
+    background-color: #4682b4;
+}
+
+body {
+    background-color: #000000;
+}
+
+.container1 {
+    border: .1rem #4682b4 solid;
+}

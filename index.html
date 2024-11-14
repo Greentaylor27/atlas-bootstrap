@@ -23,18 +23,15 @@
             <div class="container-fluid bg-blue">
 
                 <!-- Navbar -->
-                <nav class="navbar navbar-expand-lg navbar-light p-3" id="navbarNav">
+
+                <nav class="navbar navbar-expand-lg navbar-light p-2 fixed-top bg-blue" id="navbarNav">
                     <a href="index.html" class="navbar-brand mb-0 h1 text-light">
                         <img src="img/brush.png" alt="Paintbrush" height="20">
                         Garden of Minis
                     </a>
-
-                    <!-- Navbar Toggler for Responsive design -->
                     <button class="navbar-toggler border-0 bg-light" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav" aria-expanded="show" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-
-                    <!-- Navbar contents -->
                     <div class="collapse navbar-collapse" id="navbarNav1">
                         <ul class="navbar-nav">
                             <li class="nav-item">
@@ -52,10 +49,21 @@
                                     About us
                                 </a>
                             </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link text-light">
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle text-light" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Socials
                                 </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a href="#" class="p-2">
+                                        <img src="img/instagram.png" alt="instagram">
+                                    </a>
+                                    <a href="https://discordapp.com/users/108101984430628864/" class="p-2">
+                                        <img src="img/discord.png" alt="discord">
+                                    </a>
+                                    <a href="https://www.twitch.tv/garden_of_minis/" class="p-2">
+                                        <img src="img/twitch.png" alt="twitch">
+                                    </a>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -63,15 +71,366 @@
             </div>
         </header>
 
-        <!-- Banner Section-->
+        <!-- Banner Section (Free section) -->
+
         <main>
-            <div class="jumbotron jumbotron-fluid py-4">
-                <div class="container">
-                    <h1 class="display-4 text-grey text-center font-weight-bold">Welcome to the Garden!!</h1>
-                    <p class="lead text-light text-center">this is a test to see what is happening</p>
-                    <hr class="my-4">
+            <div class="jumbotron jumbotron-fluid mb-0">
+                <div class="container text-center">
+                    <h1 class="display-4 text-grey text-center font-weight-bold a1">Welcome to the Garden!!</h1>
+                    <p class="lead a1 text-white m-3">
+                        Hello my name is Taylor and I started my miniature painting journey in the spring of 2020
+                    </p>
+                    <p class="text-white m-2">
+                        Like many of you I was stuck in the house and needed something to do while I spent long hours in my house by myself I found solice in miniatures. I know not a lot of people enjoy the painting aspect of the hobby of tabletop gaming
+                    </p>
+                    <button type="button" class=" btn disabled bg-blue border-0 btn-lg a1 mt-2">
+                        <a href="#" class="text-light disabled">Get quote here</a>
+                    </button>
+                </div>
+            </div>
+
+            <!-- First Carousel -->
+
+            <div id="carouselSlide" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center bg-reaver d-flex justify-content-center">
+                        <div calss="card">
+                            <div class="row no-gutters">
+                                <div class="col-lg-auto">
+                                    <img src="img/portrait-3b.png" class="card-img img-fluid rounded-circle pl-5" alt="portrait">
+                                </div>
+                                <div class="col-lg">
+                                    <div class="card-body mb-0 pt-5">
+                                        <h5 class="card-title font-weight-bold">Erik Lehnsherr</h5>
+                                        <p class="card-text">"By the ancient arts of craftsmanship, I say unto you—no mortal soul, nor wizard of any realm, can conjure a wizard's cloak as wondrous as these!"</p>
+                                        <p class="card-text"><small>Last updated: Yesterday</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="card bg-reaver d-flex justify-content-center align-items-center">
+                            <div class="row no-gutters">
+                                <div class="col-lg-auto">
+                                    <img src="img/portrait-1b.png" class="card-img img-fluid rounded-circle pl-5" alt="portrait">
+                                </div>
+                                <div class="col-lg">
+                                    <div class="card-body mb-0 pt-5">
+                                        <h5 class="card-title font-weight-bold">Mogadak</h5>
+                                        <p class="card-text">"I’ve worn armor forged in the hottest forges and painted by the finest craftsmen... but none compare to these leathers.<br> 
+                                            These designs? They’re not just paint—they’re a mark of power.<br>
+                                            No one’s ever dared to put this kind of art on a warrior’s skin before. It feels like the battle itself is coursing through me."</p>
+                                        <p class="card-text"><small>Last updated: Yesterday</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="card bg-reaver d-flex justify-content-center align-items-center">
+                            <div class="row no-gutters">
+                                <div class="col-lg-auto">
+                                    <img src="img/portrait-4b.png" class="card-img img-fluid rounded-circle pl-5" alt="portrait">
+                                </div>
+                                <div class="col-lg">
+                                    <div class="card-body mb-0 pt-5">
+                                        <h5 class="card-title font-weight-bold">Paqen duskhold</h5>
+                                        <p class="card-text">"In all my years of studying the arcane and collecting tomes of ancient lore, I have never encountered such artistry.<br>
+                                            These books you’ve painted are not mere objects; they are treasures, imbued with magic in every stroke.<br>
+                                            The designs resonate with an elegance that transcends time itself—truly worthy of the most sacred of libraries.<br>
+                                            You’ve captured not just the essence of magic, but its very soul."</p>
+                                        <p class="card-text"><small>Last updated: Sept. 27th 2022</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <div class="card bg-reaver d-flex justify-content-center align-items-center">
+                            <div class="row no-gutters">
+                                <div class="col-lg-auto">
+                                    <img src="img/portrait-5b.png" class="card-img img-fluid rounded-circle pl-5" alt="portrait">
+                                </div>
+                                <div class="col-lg">
+                                    <div class="card-body mb-0 pt-5">
+                                        <h5 class="card-title font-weight-bold">Rowarin</h5>
+                                        <p class="card-text">"Oh, how the wind dances differently now!<br>
+                                            These wings you’ve painted aren’t just beautiful—they sing with the magic of the forest. Every flutter feels like a soft breeze through moonlit trees.<br>
+                                            You’ve captured the very essence of flight, of freedom. I feel lighter, brighter, as if the stars themselves are in my wings.<br>
+                                            Truly, no artist has ever understood a fairy's heart as you do!"</p>
+                                        <p class="card-text"><small>Last updated: Yesterday</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselSlide" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a href="#carouselSlide" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <!-- Article with Aside-->
+
+            <div class="container-fluid">
+                <div class="row" id="personalBio">
+                    <article class="col-lg-2 bg-secondary">
+                        <h3 class="text-light">Why I chose to make this site</h3>
+                    </article>
+                    <section class="col-lg bg-reaver">
+                        <p class="text-light font-weight-bold">As an artist, I’ve always been captivated by the incredible detail and artistry that goes into painting miniatures.<br>
+                            What started as a personal hobby—painting models for tabletop games, collections, and display pieces—soon turned into a deep passion for the craftsmanship and creativity required to bring these small-scale figures to life.<br>
+                            Through years of practice, I’ve honed my skills and developed a unique style that blends meticulous detail with vibrant colors, and I’m excited to share this passion with others who appreciate the artistry of miniatures.<br>
+                            This website is born from a desire to offer my services to fellow enthusiasts who want to elevate their collections or enhance their gaming experience.<br>
+                            Whether you're looking to commission a one-of-a-kind miniature for a tabletop army, a special character for a game, or simply want to create a standout display piece, I want to provide an outlet for your vision.<br>
+                            I understand how important these pieces are to the stories we tell and the worlds we build, and I strive to ensure each miniature is painted with the same care and attention to detail as if it were my own.<br>
+                            By offering a platform for commissions, I hope to connect with a wider community of gamers, collectors, and art lovers who share my passion for miniatures.<br>
+                            This website is not only a way to showcase my work but also an opportunity to collaborate with you to create something truly special.<br>
+                            Whether you’re a long-time collector or just starting out, I look forward to working together and bringing your ideas to life through the art of miniature painting.
+                            </p>
+                    </section>
+                    <aside class="text-dark col-lg-1 m-auto order-lg-last order-md-first">
+                        <div class="card text-center">
+                            <img src="img/My-desk.jpg" class="card-img-top img-fluid img-thumbnail" alt="Picture of My desk">
+                            <h5 class="text-dark card-title text-wrap">A peak inside the studio</h5>
+                            <p class="card-body">A little sneak pic at where the magic happens</p>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+
+            <!-- Multiple Item Carousel -->
+
+            <div class="carousel slide mb-5 pb-3" id="carouselSlide2" data-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Carousel item 1 -->
+                    <div class="carousel-item active mx-auto">
+                        <div class="row">
+                            <!-- Card 1 -->
+                            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                                <div class="card bg-blue">
+                                    <img src="img/Charles-X.png" class="img-fluid img-thumbnail" alt="Charles Xavier">
+                                    <div class="card-body text-light">
+                                        <h5 class="card-title">Charles Xavier</h5>
+                                        <h6 class="card-subtitle text-muted">#painting-tutorial</h6>
+                                        <p class="card-text">Come watch one of my tutorials where I paint up one of my favorite x-men!</p>
+                                        <p class="card-footer text-muted text-center">Uploaded 3hr Ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                                <div class="card bg-reaver">
+                                    <img src="img/shadow-king.png" class="img-fluid img-thumbnail" alt="Shadow King">
+                                    <div class="card-body text-light">
+                                        <h5 class="card-title">Shadow King</h5>
+                                        <h6 class="card-subtitle text-muted">#Paint-Stream</h6>
+                                        <p class="card-text">Come watch an old stream where we talk about the Shadow King and paint a little bit while we do that.</p>
+                                        <p class="card-footer text-muted text-center">Uploaded Yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                                <div class="card bg-blue">
+                                    <img src="img/Capt.png" alt="" class="img-fluid img-thumbnail">
+                                    <div class="card-body text-light">
+                                        <h5 class="card-title">Captain America</h5>
+                                        <h6 class="card-subtitle text-muted">#Stream-hangout</h6>
+                                        <p class="card-text">Yesterday I wasn't feeling good so I couldn't bring myself to paint so I just hungout with stream and spent a good amount of time talking about Captain America</p>
+                                        <p class="card-footer text-muted text-center">Uploaded July 4th, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+                                <div class="card bg-reaver">
+                                    <img src="img/Squad_1.png" alt="Squad" class="img-fluid img-thumbnail">
+                                    <div class="card-body text-light">
+                                        <h5 class="card-title">Space Marines</h5>
+                                        <h6 class="card-subtitle text-muted">#Paint-tutorial</h6>
+                                        <p class="card-text">Buddy gave me some Beakeez to paint so we go all out for Orktober.</p>
+                                        <p class="card-footer text-muted text-center">Uploaded Orktober 15th, M3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel item 2 -->
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            
+                            <!-- Card 1 -->
+
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="card bg-blue">
+                                    <img src="img/Charles-X.png" class="img-fluid img-thumbnail" alt="Charles Xavier">
+                                    <div class="card-body text-light">
+                                        <h5 class="card-title">Charles Xavier</h5>
+                                        <h6 class="card-subtitle text-muted">#painting-tutorial</h6>
+                                        <p class="card-text">Come watch one of my tutorials where I paint up one of my favorite x-men!</p>
+                                        <p class="card-footer text-muted text-center">Uploaded 3hr Ago</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="card bg-reaver">
+                                    <img src="img/shadow-king.png" class="img-fluid img-thumbnail" alt="Shadow King">
+                                    <div class="card-body text-light">
+                                        <h5 class="card-title">Shadow King</h5>
+                                        <h6 class="card-subtitle text-muted">#Paint-Stream</h6>
+                                        <p class="card-text">Come watch an old stream where we talk about the Shadow King and paint a little bit while we do that.</p>
+                                        <p class="card-footer text-muted text-center">Uploaded Yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="card bg-blue">
+                                    <img src="img/Capt.png" alt="" class="img-fluid img-thumbnail">
+                                    <div class="card-body text-light">
+                                        <h5 class="card-title">Captain America</h5>
+                                        <h6 class="card-subtitle text-muted">#Stream-hangout</h6>
+                                        <p class="card-text">Yesterday I wasn't feeling good so I couldn't bring myself to paint so I just hungout with stream and spent a good amount of time talking about Captain America</p>
+                                        <p class="card-footer text-muted text-center">Uploaded July 4th, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 4 -->
+
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="card bg-reaver">
+                                    <img src="img/Squad_1.png" alt="Squad" class="img-fluid img-thumbnail">
+                                    <div class="card-body text-light">
+                                        <h5 class="card-title">Space Marines</h5>
+                                        <h6 class="card-subtitle text-muted">#Paint-tutorial</h6>
+                                        <p class="card-text">Buddy gave me some Beakeez to paint so we go all out for Orktober.</p>
+                                        <p class="card-footer text-muted text-center">Uploaded Orktober 15th, M3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carousel item 3 -->
+
+                    <div class="carousel-item">
+                        <div class="row">
+
+                            <!-- Card 1 -->
+
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="card bg-blue">
+                                    <img src="img/Charles-X.png" class="img-fluid img-thumbnail" alt="Charles Xavier">
+                                    <div class="card-body text-light">
+                                        <h5 class="card-title">Charles Xavier</h5>
+                                        <h6 class="card-subtitle text-muted">#painting-tutorial</h6>
+                                        <p class="card-text">Come watch one of my tutorials where I paint up one of my favorite x-men!</p>
+                                        <p class="card-footer text-muted text-center">Uploaded 3hr Ago</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="card bg-reaver">
+                                    <img src="img/shadow-king.png" class="img-fluid img-thumbnail" alt="Shadow King">
+                                    <div class="card-body text-light">
+                                        <h5 class="card-title">Shadow King</h5>
+                                        <h6 class="card-subtitle text-muted">#Paint-Stream</h6>
+                                        <p class="card-text">Come watch an old stream where we talk about the Shadow King and paint a little bit while we do that.</p>
+                                        <p class="card-footer text-muted text-center">Uploaded Yesterday</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="card bg-blue">
+                                    <img src="img/Capt.png" alt="" class="img-fluid img-thumbnail">
+                                    <div class="card-body text-light">
+                                        <h5 class="card-title">Captain America</h5>
+                                        <h6 class="card-subtitle text-muted">#Stream-hangout</h6>
+                                        <p class="card-text">Yesterday I wasn't feeling good so I couldn't bring myself to paint so I just hungout with stream and spent a good amount of time talking about Captain America</p>
+                                        <p class="card-footer text-muted text-center">Uploaded July 4th, 2024</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 4 -->
+
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                                <div class="card bg-reaver">
+                                    <img src="img/Squad_1.png" alt="Squad" class="img-fluid img-thumbnail">
+                                    <div class="card-body text-light">
+                                        <h5 class="card-title">Space Marines</h5>
+                                        <h6 class="card-subtitle text-muted">#Paint-tutorial</h6>
+                                        <p class="card-text">Buddy gave me some Beakeez to paint so we go all out for Orktober.</p>
+                                        <p class="card-footer text-muted text-center">Uploaded Orktober 15th, M3</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Free Section making a Modal-->
+            <div class="container-fluid my-4 d-flex justify-content-center">
+                <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#contactForm">I want to get to know you!</button>
+            </div>
+
+            <div id="contactForm" class="modal fade text-center" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content p-2">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="formModal">I want to get to know you!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="pt-3">
+                                <div class="input-group container-fluid row">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <div class="col-10 pb-4">
+                                        <input type="email" id="contactEmail" class="form-control border">
+                                    </div>
+                                </div>
+                                <div class="form-group container-fluid row">
+                                    <label for="contactMessage">Tell me whatever you want to tell me</label>
+                                    <div class="col-12 pb-2 pt-2">
+                                        <textarea class="form-control" id="contactMessage" rows="3"></textarea>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
+        <footer>
+            <div class="bg-dark container-fluid text-center text-light">
+                <p>Author: Taylor Green</p>
+                <p>&copy; Green (need a better freelance name than this) 2024</p>
+                <p>Apparently you need to include legal info here have no clue what to put will need to research more</p>
+            </div>
+        </footer>
     </body>
 </html>
