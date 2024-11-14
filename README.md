@@ -24,6 +24,30 @@ My attempt at implementing a full front end website using Bootstrap. A free and 
 ![App Screenshot](https://i.imgur.com/moTdFtM.png)
 
 
+## Sections to be Graded
+
+- Header
+![Header](https://i.imgur.com/Tdl8uou.png)
+
+- Single Item Carousel
+![Single Item Carousel](https://i.imgur.com/C7zQrtP.png)
+
+- Section & Aside
+![Aside](https://i.imgur.com/GvCcBuG.png)
+
+- Dropdown Closed
+![Dropdown](https://i.imgur.com/jHNlCgC.png)
+
+- Dropdown Open
+![Dropdown](https://i.imgur.com/8a7ua6k.png)
+
+- Multiple Item Carousel
+![Multi-carousel](https://i.imgur.com/rJR3Ifa.png)
+
+- Footer
+![Footer](https://i.imgur.com/vR442HC.png)
+
+
 ## Lessons I Learned
 
 - Bootstrap is great for getting a quick website fast. However it'll never replace CSS fully.
